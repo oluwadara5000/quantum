@@ -1,0 +1,2086 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(/css/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Macondo;
+    src: url(/css/fonts/Macondo/Macondo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Katibeh;
+    src: url(/css/fonts/Katibeh/Katibeh-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mukta;
+    src: url(/css/fonts/Mukta/MuktaMahee-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.header {
+    background-color: rgb(58, 51, 51);
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation-bar {
+    width: 10px;
+    margin: 0;
+    display: none;
+}
+
+
+.main-heading {
+    color: rgb(221, 238, 195);
+    font-size: 2rem;
+    font-family: Orbitron;
+}
+
+ul > li {
+    list-style-type: none;
+    color: rgb(221, 238, 195);
+    font-family: Macondo;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    letter-spacing: 2.5px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.about {
+    margin-top: 5.5rem;
+    padding: 2.5rem;
+    height: 63rem;
+    color: rgb(58, 51, 51);
+    background-color: rgb(238, 245, 227);
+}
+
+.about-text-heading-div {
+    margin: 2rem 0;
+}
+
+.about-text-heading {
+    font-size: 2.5rem;
+    font-family: Katibeh;
+    letter-spacing: 3.5px;
+}
+.about-text, .about-text-one {
+    font-family: Mukta;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.about-text-one {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    width: 60%;
+}
+
+.second-area-div {
+    display: none;
+}
+
+.area {
+    width: 100%;
+    height: max-content;
+    padding: 2rem;
+    margin-top: -8rem;
+}
+
+.area-container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.area-container-cards {
+    background-color: rgb(231, 241, 216);
+    color: rgb(58, 51, 51);
+    width: 24%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 0 10px;
+}
+
+.area-container-cards-writeup {
+    margin: 20px 0;
+    font-family: Mukta;
+}
+
+.little-about {
+    justify-content: center;
+    display: flex;
+    padding: 5rem;
+}
+
+.picture {
+    padding: 1.5rem;
+    margin: 0 3.5rem;
+    height: 750px;
+}
+
+.little-about-text {
+    height: 750px;
+    padding: 2rem;
+    text-align: justify;
+    border-left: 1px solid black;
+}
+
+.about-picture {
+    border-radius: 120px;
+}
+
+.little-about-text-heading {
+    font-family: Katibeh;
+    font-size: 1.8rem;
+    letter-spacing: 1rem;
+    margin-bottom: 1.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.text {
+    font-family: Mukta;
+    font-size: 1rem;
+    margin: 0.3rem 0 1rem 0;
+}
+
+
+.text-heading {
+    font-family: Mukta;
+    letter-spacing: 0.5rem;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    text-align: center;
+    padding: 2.5rem;
+    background-color: #fafafa;
+}
+
+.card-heading {
+    margin: auto;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+
+.product-heading {
+    font-family: Katibeh;
+    font-size: 1.5rem;
+}
+
+.product-sub-heading {
+    font-family: Mukta;
+    font-size: 2rem;
+}
+
+.card-container {
+    width: inherit;
+    height: 35rem;
+    display: flex;
+    gap: 10px;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px;
+}
+
+.card-container-div {
+    width: 30%;
+    background-color: rgb(244, 247, 241);
+    height: 90%;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 12px;
+}
+
+.card-div-text {
+    margin-top: 2rem;
+    text-align: start;
+    font-family: Mukta;
+    color: rgb(58, 51, 51);
+}
+
+.card-line {
+    width: 8%;
+    border: 1px solid rgb(58, 51, 51);
+    margin-top: -20rem;
+}
+
+.card-container-individual-div {
+    margin: auto;
+    height: 40%;
+    width: 95%;
+    background-image: url(/images/card-div.jpg);
+}
+
+.blog-body {
+    width: inherit;
+    height: 50rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1rem 1rem 1rem;
+    gap: 20px;
+    align-items: center;
+}
+
+.blog-content {
+    display: flex;
+    height: 85%;
+    margin: 2rem 0;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.blog-content-writeup {
+    font-family: Mukta;
+    color: black;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.blog-content-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    height: 100%;
+    padding: 2.5rem;
+}
+
+
+.blog-heading-text {
+    font-family: Katibeh;
+    letter-spacing: 5px;
+    color: black;
+    font-size: 3rem;
+}
+
+.blog-writeup {
+    padding: 2rem;
+    text-align: right;
+    border-right: 1px solid black;
+}
+
+.executive-div {
+    background-color: #f4f7fc;
+    height: max-content;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.executive-div-text {
+    margin: 1.5rem 0;
+}
+
+.executive-div-heading {
+    font-family: Katibeh;
+    font-size: 2rem;
+}
+
+.vertical-border {
+    border: 0.1px solid #f3cfcd;
+    height: 607px;
+    margin-top: -1.5rem;
+}
+
+.executive-div-card-container {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    padding: 1rem;
+    margin: auto;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    box-shadow: 0 0 15px;
+    border-radius: 12px;
+}
+
+.executive-div-card-one, .executive-div-card-two, .executive-div-card-three {
+    height: 100%;
+    width: 30%;
+    padding: 1rem;
+}
+.executive-div-card-one {
+    border-left: 1px solid black;
+}
+
+.executive-div-card-two {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.executive-div-card-three {
+    border-right: 1px solid black;
+}
+
+.executive {
+    width: inherit;
+}
+
+
+.name {
+    font-family: Mukta;
+    font-size: 2rem;
+}
+
+.post {
+    font-family: Macondo;
+    font-size: 1.5rem;
+}
+
+.discovery {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: 50rem;
+    height: max-content;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.discovery-heading-div {
+    font-family: Mukta;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding: 1rem;
+}
+
+.discovery-content {
+    width: inherit;
+    height: 95%;
+    height: max-content;
+    display: flex;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.discovery-picture {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    box-shadow: 0 0 5px;
+    padding: 1rem;
+    margin: auto 0;
+    border-radius: 10px;
+}
+
+.discovery-image {
+    width: 100%;
+    height: inherit;
+    margin: auto;
+}
+
+.discovery-list > li {
+    list-style-type: disc;
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+    padding: 0;
+    font-family: Mukta;
+    line-height: 1.6rem;
+}
+
+.discovery-content-writeup {
+    font-size: 2rem;
+    width: 50%;
+    padding: 1rem;
+}
+
+.discovery-content-writeup-heading-div {
+    font-family: Katibeh;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+
+.contact {
+    padding: 3rem;
+    background-color: rgb(236, 240, 229);
+    width: inherit;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email-container {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+}
+
+.email-container-heading {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.email-request {
+    font-family: Katibeh;
+    font-size: 2rem;
+}
+
+.email-form {
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    height: 4rem; 
+    border-radius: 12px;   
+}
+
+.subscribe {
+    letter-spacing: 5px;
+    font-family: Mukta;
+    font-size: 1.5rem;
+    width: 30rem;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.subscribe-submit-button {
+    font-family: Katibeh;
+    font-size: 1.5rem;
+    width: 10rem;
+    border-radius: 12px;
+    background-color: greenyellow;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 2rem;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-container-individual {
+    width: 20%;
+    height: 90%;
+    padding: 1rem;
+}
+
+.contact-container-individual-writeup {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: Mukta;
+}
+
+.contact-container-divider {
+    border: 1px solid black;
+    height: 450px;
+}
+
+.footer {
+    background-color: rgb(58, 51, 51);
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.main-footer-heading {
+    font-family: Katibeh;
+    font-size: 2rem;
+    color: rgb(221, 238, 195);
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa {
+    margin: 10px 20px;
+    color: rgb(221, 238, 195);
+}
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+
+/*RESOLUTIONS LESS THAN MOBILE PHONES*/
+
+@media screen and (max-width: 320px) {
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-bar-div {
+        width: 30%;
+    }
+
+    .navigation {
+        display: block;
+        width: 50%;
+        margin-left: 55px;
+    }
+
+    .main-heading {
+        font-size: 1rem;
+    }
+
+    .about {
+        margin-bottom: 2rem;
+        height: 30rem;
+    }
+
+    .about-text {
+        font-size: 10px;
+    }
+
+    .about-text-heading {
+        font-size: 1rem;
+    }
+
+    .about-text-one {
+        font-size: 10px;
+        width: 90%;
+    }
+
+    .area {
+        width: inherit;
+        height: 100rem;
+        margin-top: 1rem;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .area-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 1rem;
+        margin: 0;
+    }
+
+    .area-container-cards {
+        width: 90%;
+        height: 24%;
+    }
+
+    .little-about {
+        flex-direction: column;
+        width: inherit;
+        height: 60rem;
+        padding: 0.5rem;
+        padding-top: 1rem;
+        justify-content: space-between;
+    }
+
+    .little-about-text-heading {
+        font-size: 15px;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+    }
+
+    .little-about-text {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid black;
+        border-left: 0;
+        padding: 1rem;
+        justify-content: center;
+        height: 55%;
+        margin-top: 1.5rem;
+    }
+
+    .text-heading {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .text {
+        font-size: 8px;
+    }
+
+    .about-picture {
+        width: 100%;
+        height: 100%;
+    }
+
+    .picture {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+        height: 350px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: inherit;
+        flex-direction: column;
+        padding: 1.25rem 0;
+        height: 1500px;
+        justify-content: space-around;
+
+    }
+
+    .card-container {
+        padding: 1.5rem 0;
+        flex-direction: column;
+        height: 90%;
+        justify-content: space-between;
+    }
+
+    .card-container-div {
+        height: 32%;
+        width: 75%;
+    }
+
+    .card-line {
+        margin-top: 0;
+        width: 95%;
+    }
+
+    .card-div-text {
+        font-size: 0.7rem;
+        margin-top: 2rem;
+    }
+
+    .card-heading {
+        margin: auto;
+        width: 85%;
+    }
+
+    .product-heading {
+        font-size: 7px;
+    }
+
+    .product-sub-heading {
+        font-size: 15px;
+    }
+
+    .blog-body {
+        padding: 1rem;
+        height: 55rem;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }
+
+    .blog-heading-text {
+        font-size: 1.5rem;
+    }
+    
+    .blog-content {
+        flex-direction: column;
+        width: inherit;
+        height: 90%;
+        margin: 0;
+        gap: 2.5rem;
+    }
+
+    .blog-content-writeup {
+        font-size: 10px;
+    }
+
+    .blog-writeup {
+        height: 70%;
+        padding: 1rem;
+        border-right: 0;
+        border-bottom: 1px solid black;
+    }
+
+    .blog-content-images {
+        width: inherit;
+        height: 90%;
+        padding: 0.5rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .blog-images {
+        width: 200px;
+    }
+
+    .executive-div {
+        height: 75rem;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    .executive-div-card-container {
+        flex-direction: column;
+        width: 95%;
+        margin: 0 8px;
+        height: 90%;
+        gap: 1.5rem;
+        box-shadow: 0 0 0;
+        justify-content: flex-start;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .executive-div-card-one {
+        border-left: 0;
+        margin: 0 7.5px;
+        width: 95%;
+        height: 50%;
+        box-shadow: 0 0 8px;
+        border-radius: 5px;
+    }
+
+    .executive-div-card-two {
+        border-left: 0;
+        border-right: 0;
+        margin: 0 7.5px;
+        width: 95%;
+        height: 50%;
+        box-shadow: 0 0 8px;
+        border-radius: 5px;
+    }
+
+    .executive-div-card-three {
+        border-right: 0;
+        margin: 0 7.5px;
+        width: 95%;
+        height: 50%;
+        box-shadow: 0 0 8px;
+        border-radius: 5px;
+    }
+
+    .executive-div-card-image {
+        width: 95%;
+        padding: 0;
+        margin: 0 7.2px 16px 7.2px;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .post {
+        font-size: 0.75rem;
+    }
+
+    .discovery {
+        width: inherit;
+        height: 65rem;
+        height: max-content;
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+
+    .discovery-heading-div {
+        font-size: 1rem;
+    }
+
+    .discovery-content {
+        flex-direction: column;
+        padding: 0.5rem;
+        justify-content: space-between;
+        height: max-content;
+    }
+
+    .discovery-content-writeup-heading-div {
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
+
+    .discovery-content-writeup {
+        font-size: 2rem;
+        width: inherit;
+        padding: 0.5rem;
+    }
+
+    .discovery-list > li {
+        list-style-type: disc;
+        font-size: 0.5rem;
+        color: black;
+        margin-top: 1rem;
+        padding: 0;
+        font-family: Mukta;
+        line-height: 1rem;
+    }
+    
+
+    .contact {
+        width: inherit;
+        height: 101rem;
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+
+    .contact-container {
+        height: 90%;
+        width: inherit;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-container-individual {
+        width: inherit;
+        padding: 1rem;
+        height: 50%;
+    }
+    .contact-container-individual-writeup {
+        font-size: 0.8rem;
+    }
+
+    .email-container {
+        width: inherit;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .email-container-heading {
+        text-align: center;
+    }
+    
+    .email-request {
+        font-size: 1rem;
+    }
+
+    form {
+        flex-direction: column;
+        height: 8rem;
+        padding: 1rem;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+    }
+
+    .subscribe {
+        width: 18rem;
+        height: 3rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .subscribe-submit-button {
+        align-self: center;
+    }
+
+    .footer {
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .main-footer-heading {
+        font-size: 1rem;
+    }
+    
+    .fa {
+        margin: 10px 10px;
+    }
+}
+
+
+
+
+
+
+
+/*RESOLUTIONS FOR MOBILE DEVICES*/
+
+@media screen and (min-width:321px) and (max-width:480px) {
+
+    .main-heading {
+        font-size: 1rem;
+    }
+    
+    .nav-bar {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        width: 50%;
+        margin-left: 55px;
+    }
+
+    .about {
+        height: 30rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-text-heading {
+        font-size: 1rem;
+    }
+    
+    .about-text {
+        font-size: 10px;
+    }
+
+    .about-text-one {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .area {
+        width: inherit;
+        height: 90rem;
+        margin-top: 1rem;
+        justify-content: space-evenly;
+    }
+
+    .area-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .area-container-cards {
+        width: 80%;
+        height: 23%;
+        margin: 0 auto;
+    }
+
+    .little-about {
+        flex-direction: column;
+        width: inherit;
+        height: 75rem;
+        padding: 0.5rem;
+        padding-top: 1rem;
+        justify-content: space-between;
+    }
+    
+    .picture {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 90%;
+        margin: auto;
+    }
+    .about-picture {
+        width: 100%;
+        height: 100%;
+    }
+
+    .little-about-text {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        border-left: 0;
+        border-top: 1px solid black;
+    }
+
+    .text {
+        font-size: 10px;
+    }
+
+    .text-heading {
+        letter-spacing: 3px;
+        font-size: 1rem;
+    }
+
+    .card {
+        padding: 1rem;
+        height: 100rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-heading {
+        margin: 0 auto;
+        width: 90%;
+        height: 5%;
+    }
+
+    .card-container {
+        height: 93%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .card-container-div {
+        height: 32%;
+        width: 90%;
+    }
+
+    .card-div-text {
+        font-size: 14px;
+    }
+
+    .card-line {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .product-heading {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .product-sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .blog-body {
+        height: 77rem;
+        padding: 10px;
+        justify-content: space-between;
+        border-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .blog-heading {
+        height: 8%;
+    }
+
+    .blog-content {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 90%;
+        justify-content: space-between;
+    }
+
+    .blog-writeup {
+        padding: 1rem;
+        border-right: 0;
+        height: 45%;
+        height: max-content;
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .blog-content-writeup {
+        font-size: 12px;
+    }
+
+    .blog-heading-text {
+        font-size: 2rem;
+    }
+
+    .blog-content-images {
+        width: inherit;
+        height: 55%;
+        padding: 1rem;
+        padding-top: 2rem;
+        justify-content: space-between;
+        border-top: 1px solid black;
+    }
+
+    .blog-images {
+        height: 50%;
+    }
+
+    .executive-div {
+        height: 98rem;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .executive-div-text {
+        height: 4%;
+        border-bottom: 1px solid black;
+    }
+
+    .executive-div-card-container {
+        flex-direction: column;
+        width: inherit;
+        margin: 0;
+        margin-bottom: 1.5rem;
+        height: 96%;
+        box-shadow: 0 0 0;
+        justify-content: space-between;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .executive-div-card-one {
+        border-left: 0;
+        width: 100%;
+        height: 32%;
+        box-shadow: 0 0 8px;
+        border-radius: 5px;
+    }
+
+    .executive-div-card-two {
+        border-left: 0;
+        border-right: 0;
+        width: 100%;
+        height: 32%;
+        box-shadow: 0 0 8px;
+        border-radius: 5px;
+    }
+
+    .executive-div-card-three {
+        border-right: 0;
+        width: 100%;
+        height: 32%;
+        box-shadow: 0 0 8px;
+        border-radius: 5px;
+    }
+
+    .executive-div-card-image {
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .post {
+        font-size: 0.75rem;
+    }
+
+    .discovery {
+        width: inherit;
+        height: 61rem;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+
+    .discovery-heading-div {
+        font-size: 1rem;
+        height: 5%;
+    }
+
+    .discovery-content {
+        flex-direction: column;
+        padding: 0;
+        height: 95%;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .discovery-picture {
+        height: 30%;
+    }
+
+    .discovery-image {
+        height: 100%;
+    }
+
+    .discovery-content-writeup-heading-div {
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
+
+    .discovery-content-writeup {
+        font-size: 2rem;
+        width: 320px;
+        padding: 0.5rem;
+        height: 69%;
+        margin: 0 auto;
+    }
+
+    .discovery-list > li {
+        list-style-type: disc;
+        font-size: 0.5rem;
+        color: black;
+        margin-top: 1rem;
+        padding: 0;
+        font-family: Mukta;
+        line-height: 1rem;
+    }
+
+    .contact {
+        padding: 1rem;
+        background-color: rgb(236, 240, 229);
+        width: inherit;
+        height: 64rem;
+        justify-content: space-between;
+    }
+    
+    .email-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        padding-bottom: 0;
+        height: 21%;
+        border-bottom: 1px solid black;
+        justify-content: space-between;
+        gap: 0;
+    }
+    
+    .email-container-heading {
+        align-items: center;
+        margin: 0;
+        padding: 0.5rem;
+        text-align: center;
+        height: 30%;
+    }
+    
+    .email-request {
+        font-size: 1.5rem;
+    }
+    
+    .email-form {
+        display: block;
+        text-align: center;
+        height: 66%;
+        margin-bottom: 1.5rem;
+        border-radius: 12px;
+    }
+    
+    form {
+        width: 100%;
+        flex-direction: column;
+        height: 100%; 
+        margin: auto 0;  
+    }
+    
+    .subscribe {
+        letter-spacing: 5px;
+        font-family: Mukta;
+        font-size: 1rem;
+        width: 100%;
+        border-radius: 12px;
+        padding: 0.5rem;
+        height: 50%;
+    }
+    
+    .subscribe-submit-button {
+        font-family: Katibeh;
+        font-size: 1.5rem;
+        width: 10rem;
+        height: 50%;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+        border-radius: 12px;
+        background-color: greenyellow;
+    }
+    
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 78%;
+        justify-content: space-between;
+        gap: 0;
+        align-items: center;
+        margin: 0;
+        padding: 1rem;
+    }
+    
+    .contact-container-individual {
+        width: 320px;
+        height: 25%;
+        padding: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contact-container-individual-writeup {
+        font-size: 10px;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .footer {
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .main-footer-heading {
+        font-size: 1rem;
+    }
+    
+    .fa {
+        margin: 10px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESOLUTIONS FOR IPADS AND TABLETS*/
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .main-heading {
+        font-size: 1.6rem;
+        letter-spacing: 3px;
+    }
+    
+    .nav-bar {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        width: 50%;
+        margin-left: 55px;
+    }
+
+    .about {
+        height: 38rem;
+        margin-bottom: 2rem;
+    }
+    
+    .about-text-heading {
+        font-size: 1.5rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+    }
+
+    .about-text-one {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .area {
+        width: inherit;
+        height: 90rem;
+        margin-top: 1rem;
+        justify-content: space-evenly;
+        padding: 1rem;
+    }
+
+    .area-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .area-container-cards {
+        width: 80%;
+        height: 23%;
+        margin: 0 auto;
+    }
+
+    .little-about {
+        flex-direction: column;
+        width: inherit;
+        height: 75rem;
+        padding: 1rem;
+        padding-top: 1rem;
+        justify-content: space-between;
+    }
+    
+    .picture {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 90%;
+        margin: auto;padding: 1rem;
+    }
+    .about-picture {
+        width: 100%;
+        height: 100%;
+    }
+
+    .little-about-text {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        border-left: 0;
+        border-top: 1px solid black;
+    }
+
+    .text {
+        font-size: 10px;
+    }
+
+    .text-heading {
+        letter-spacing: 5px;
+        font-size: 1rem;
+    }
+
+    .card {
+        padding: 1rem;
+        height: 105rem;
+        justify-content: space-around;
+    }
+
+    .card-container {
+        height: 90%;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+
+    .card-container-div {
+        height: 33%;
+        width: 73%;
+    }
+    
+
+    .card-div-text {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+
+    .card-line {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .card-heading {
+        margin: auto;
+        width: 90%;
+    }
+
+    .product-heading {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .product-sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .blog-body {
+        height: 84rem;
+        padding: 10px;
+        justify-content: space-between;
+        border-right: 0;
+        border-bottom: 1px solid black;
+    }
+
+    .blog-heading {
+        height: 3%;
+    }
+
+    .blog-heading-text {
+        font-size: 2rem;
+    }
+
+    .blog-content {
+        flex-direction: column;
+        width: 100%;
+        height: 95%;
+        justify-content: space-between;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .blog-writeup {
+        padding: 1rem;
+        border-right: 0;
+        border-bottom: 1px solid black;
+        height: 25%;
+    }
+
+    .blog-content-writeup {
+        font-size: 12px;
+    }
+
+    .blog-content-images {
+        width: inherit;
+        height: 73%;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .blog-images {
+        height: 50%;
+    }
+
+    .executive-div {
+        height: 100rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .executive-div-text {
+        padding: 1rem;
+        margin: 0;
+        height: 3%;
+    }
+
+    .executive-div-card-container {
+        flex-direction: column;
+        width: inherit;
+        margin: 0;
+        height: 95%;
+        gap: 1.5rem;
+        box-shadow: 0 0 0;
+        justify-content: space-between;
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .executive-div-card-one, .executive-div-card-two, .executive-div-card-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-left: 0;
+        border-right: 0;
+        height: 33%;
+        width: 400px;
+        padding: 1rem;
+        margin: 0 auto;
+        box-shadow: 0 0 10px;
+        border-radius: 10px;
+    }
+
+    .executive-div-card-image {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        height: 88%;
+    }
+
+    .title {
+        height: 11%;
+
+    }
+
+    .executive {
+        width: inherit;
+        height: inherit;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .post {
+        font-size: 0.75rem;
+    }
+
+    .discovery {
+        width: inherit;
+        height: 60rem;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+
+    .discovery-heading-div {
+        font-size: 1rem;
+    }
+
+    .discovery-content {
+        flex-direction: column;
+        padding: 1rem;
+        height: 95%;
+        justify-content: space-between;
+    }
+
+    .discovery-picture {
+        height: 42%;
+    }
+
+    .discovery-image {
+        height: 100%;
+    }
+
+    .discovery-content-writeup-heading-div {
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
+
+    .discovery-content-writeup {
+        font-size: 2rem;
+        width: inherit;
+        padding: 0.5rem;
+        height: 55%;
+    }
+
+    .discovery-list > li {
+        list-style-type: disc;
+        font-size: 0.5rem;
+        color: black;
+        margin-top: 1rem;
+        padding: 0;
+        font-family: Mukta;
+        line-height: 1rem;
+    }
+
+    .contact {
+        padding: 1rem;
+        background-color: rgb(236, 240, 229);
+        width: inherit;
+        height: 65rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .email-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+        border-bottom: 1px solid black;
+        justify-content: space-around;
+    }
+    
+    .email-container-heading {
+        align-items: center;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .email-request {
+        font-size: 1.5rem;
+    }
+    
+    .email-form {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 8rem; 
+        padding: 10px;   
+    }
+    
+    .subscribe {
+        letter-spacing: 5px;
+        font-family: Mukta;
+        font-size: 1rem;
+        width: 100%;
+        border-radius: 12px;
+        padding: 0.5rem;
+        height: 50%;
+    }
+    
+    .subscribe-submit-button {
+        font-family: Katibeh;
+        font-size: 1.5rem;
+        width: 10rem;
+        margin: auto;
+        border-radius: 12px;
+        background-color: greenyellow;
+    }
+    
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        gap: 0;
+        align-items: center;
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+    
+    .contact-container-individual {
+        width: inherit;
+        height: 25%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contact-container-individual-writeup {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .footer {
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .main-footer-heading {
+        font-size: 1.5rem;
+    }
+    
+    .fa {
+        margin: 10px 10px;
+    }
+}
+
+
+
+
+
+
+
+/*RESOLUTIONS FOR SMALL SCREENS, LAPTOPS, DESKTOPS AND LARGE SCREENS*/
+
+@media screen and (min-width:769px) and (max-width:1200px) {
+
+    .main-heading {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    ul > li {
+        font-size: 0.8rem;
+    }
+
+    .about {
+        height: 27rem;
+    }
+
+    .about-text-heading-div {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .about-text, .about-text-one {
+        padding: 1rem;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .about-text-one {
+        width: 90%;
+    }
+
+    .area {
+        display: none;
+    }
+
+    .second-area-div {
+        height: 50rem;
+        padding: 2rem;
+        width: inherit;
+        display: block;
+    }
+
+    .second-area-container {
+        height: 100%;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+    }
+
+    .second-area-container-cards {
+        background-color: rgb(231, 241, 216);
+        padding: 2rem;
+        border-radius: 1rem;
+        color: rgb(58, 51, 51);
+        box-shadow: 0 0 10px;
+    }
+
+    .second-area-container-cards-writeup {
+        margin: 20px 0;
+        font-family: Mukta;
+    }
+
+    .little-about {
+        padding: 1rem;
+        height: max-content;
+    }
+
+    .little-about-text {
+        padding: 1rem;
+        padding-top: 3rem;
+        width: 60%;
+        height: fit-content;
+        width: fit-content;
+        border-left: 0;
+    }
+
+    .vertical-line {
+        border: 1px solid black;
+    }
+
+    .little-about-text-heading {
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .text-heading {
+        letter-spacing: 0;
+    }
+
+    .picture {
+        justify-content: center;
+        padding: 1.5rem;
+        height: 100%;
+        margin: auto 0;
+    }
+
+    .about-picture {
+        margin: auto;
+    }
+
+    .card {
+        padding: 1.2rem;
+        height: 60rem;
+    }
+
+    .card-heading {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 1rem;
+        gap: 2rem;
+        height: 90%;
+    }
+
+    .card-container-div {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-line {
+        display: none;
+    }
+
+    .card-div-text {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .blog-body {
+        height: max-content;
+    }
+
+    .blog-content {
+        margin: 0;
+    }
+
+    .blog-writeup {
+        height: fit-content;
+        border-right: 0;
+        margin: auto 0;
+    }
+
+    .blog-content-writeup {
+        font-size: 1rem;
+    }
+
+    .blog-content-images {
+        border-left: 1px solid black;
+        height: 698px;
+        padding: 1.2rem;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+
+    .executive-div {
+        padding: 1rem;
+        height: max-content;
+    }
+
+    .executive-div-card-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1.5rem;
+        margin: 0;
+        width: inherit;
+        height: max-content;
+        box-shadow: 0 0 0;
+    }
+
+    .executive-div-card-one, .executive-div-card-two, .executive-div-card-three {
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+        padding: 1rem;
+        justify-content: space-between;
+        border-radius: 20px;
+        box-shadow: 0 0 10px;
+    }
+
+    .executive-div-card-image {
+        padding: 1rem;
+        height: 85%;
+    }
+
+    .executive {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        height: 11%;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .post {
+        font-size: 0.5rem;
+    }
+
+    .discovery {
+        height: max-content;
+    }
+
+    .discovery-content {
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .discovery-picture {
+        padding: 1rem;
+    }
+
+    .discovery-content-writeup {
+        margin: 0 auto;
+    }
+
+    .discovery-content-writeup-heading {
+        font-size: 2rem;
+    }
+
+    .discovery-list > li {
+        font-size: 13px;
+    }
+
+    .contact {
+        height: max-content;
+        padding: 1rem;
+    }
+
+    .email-container {
+        padding: 0.5rem;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .email-container-heading {
+        padding: 0.5rem;
+        margin: 0;
+    }
+
+    .email-request {
+        font-size: 1.5rem;
+    }
+
+    .email-form {
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+
+    .subscribe {
+        width: 80%;
+    }
+
+    .subscribe-submit-button {
+        width: inherit;
+        width: 30%;
+    }
+
+    .contact-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+    }
+
+    .contact-container-individual {
+        width: 100%;
+    }
+
+    .contact-container-individual-writeup {
+        padding: 1rem;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+
+/*RESOLUTIONS FOR EXTRA LARGE SCREENS*/
+
+@media screen and (min-width:1201px) and (max-width:1440px){
+    .main-heading {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+
+    .about {
+        height: 53rem;
+    }
+
+    .about-text-one {
+        width: 80%;
+    }
+
+    .little-about-text {
+        height: max-content;
+    }
+
+    .card-container {
+        justify-content: space-between;
+    }
+
+    .card-container-div {
+        width: 36%;
+        gap: 0;
+    }
+
+    .discovery-content {
+        gap: 1rem;
+    }
+}
