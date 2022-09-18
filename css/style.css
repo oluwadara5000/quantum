@@ -55,12 +55,22 @@
 }
 
 ul > li {
-    list-style-type: none;
+    display: inline-block;
     color: rgb(221, 238, 195);
     font-family: Macondo;
     font-size: 1.3rem;
     padding-left: 1rem;
     letter-spacing: 2.5px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+ul > li:hover {
+    padding: 12px;
+    background-color:rgb(221, 238, 195);
+    color: rgb(58, 51, 51);
+    transition: 0.2s ease-out;
 }
 
 .nav-bar {
@@ -112,9 +122,9 @@ ul > li {
 
 .area-container {
     width: 100%;
-    height: 10%;
+    height: 100%;
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     justify-content: space-between;
 }
 
@@ -131,6 +141,7 @@ ul > li {
 .area-container-cards-writeup {
     margin: 20px 0;
     font-family: Mukta;
+    font-size: 20px;
 }
 
 .little-about {
