@@ -16,26 +16,43 @@
     <title>Quantum Cities</title>
   </head>
   <body>
-    <header>
-      <div class="header">
-        <div class="main-heading-div">
-          <h class="main-heading">Quantum Cities</h>
-        </div>
-        <div class="nav-bar-div">
-          <ul class="nav-bar">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Products & Services</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
-          </ul>
+    <div class="header">
+      <div class="main-heading-div">
+        <h class="main-heading">Quantum Cities</h>
+      </div>
+      <div class="nav-bar-div">
+        <ul class="nav-bar">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Products & Services</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
 
-          <div class="navigation">
-            <i class="fa fa-bars fa-1x navigation-bar"></i>
-          </div>
+        <div class="navigation">
+            <button id="openButton" class="open-button" onclick="openPanel()"><i class="fa fa-bars fa-1x navigation-bar"></i></button>
         </div>
       </div>
-    </header>
+    </div>
+
+    <div id="panel" class="panel">
+      <div>
+        <button id="collapseButton" class="collapse-button" onclick="closePanel()">
+          <i class="fa fa-times"></i>
+        </button>
+      </div>
+
+      <div id="panelList" class="panel-list">
+        <ul class="panel-ul">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Products and Services</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+    </div>
+
     <main class="container">
       <div class="about">
         <div class="about-text-heading-div">
@@ -290,9 +307,9 @@
               <img class="executive" src="/images/female.jpg" alt="female" />
             </div>
             <div class="title">
-            <h class="name">Lorem Ipsum</h>
-            <p class="post">Lorem, Ipsum Dolo</p>
-          </div>
+              <h class="name">Lorem Ipsum</h>
+              <p class="post">Lorem, Ipsum Dolo</p>
+            </div>
           </div>
 
           <div class="executive-div-card-three">
@@ -467,6 +484,7 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
     <!--<script src="bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>-->
   </body>
 </html>
