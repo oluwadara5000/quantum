@@ -52,6 +52,10 @@
   font-family: Orbitron;
 }
 
+.main-heading:hover {
+  letter-spacing: 4px;
+}
+
 ul > li {
   display: inline-block;
   color: rgb(221, 238, 195);
@@ -151,6 +155,12 @@ ul > li:hover {
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 0 10px;
+  opacity: 0.3;
+}
+
+.area-container-cards:hover {
+  opacity: 1;
+  transition: 0.2s ease-in-out;
 }
 
 .area-container-cards-writeup {
