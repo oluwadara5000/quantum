@@ -50,10 +50,13 @@
   color: rgb(221, 238, 195);
   font-size: 2rem;
   font-family: Orbitron;
+  letter-spacing: 3px;
+  cursor: pointer;
 }
 
 .main-heading:hover {
-  letter-spacing: 4px;
+  letter-spacing: 7px;
+  transition: 0.5s ease-in-out;
 }
 
 .nav-bar-div ul > li {
@@ -156,6 +159,20 @@ ul > li:hover {
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 0 10px;
+  background: linear-gradient(
+    to top,
+    rgb(221, 238, 195) 50%,
+    rgb(58, 51, 51) 50%
+  );
+  background-size: 100% 200%;
+  background-position: top;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+}
+
+.area-container-cards:hover {
+  color: rgb(58, 51, 51);
+  background-position: bottom;
 }
 
 .area-container-cards-writeup {
@@ -594,7 +611,7 @@ form {
 /*RESOLUTIONS LESS THAN MOBILE PHONES*/
 
 @media screen and (max-width: 320px) {
-  .nav-bar {
+  .nav-bar-div {
     display: none;
   }
 
@@ -603,9 +620,8 @@ form {
   }
 
   .navigation {
-    display: block;
-    width: 50%;
-    margin-left: 55px;
+    justify-content: flex-end;
+    display: inline;
   }
 
   .main-heading {
@@ -631,19 +647,26 @@ form {
 
   .panel-list {
     text-align: right;
-    padding: 5px;
+    padding: 10px;
   }
 
   .panel ul > li {
     display: flex;
     flex-direction: column;
+    font-family: Macondo;
     color: rgb(238, 245, 227);
-    font-size: 12px;
-    margin: 5px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 3px;
   }
 
   .panel ul > li:hover {
-    color: rgb(58, 51, 51);
+    background-color: rgb(58, 51, 51);
+    color: rgb(238, 245, 227);
+    border-bottom: 2px solid rgb(238, 245, 227);
+    width: max-content;
+    margin-left: auto;
   }
 
   .open-button {
@@ -1025,14 +1048,13 @@ form {
     font-size: 1rem;
   }
 
-  .nav-bar {
+  .nav-bar-div {
     display: none;
   }
 
   .navigation {
-    display: block;
-    width: 50%;
-    margin-left: 55px;
+    justify-content: flex-end;
+    display: inline;
   }
 
   .panel {
@@ -1054,20 +1076,26 @@ form {
 
   .panel-list {
     text-align: right;
-    padding: 5px;
+    padding: 10px;
   }
 
   .panel ul > li {
     display: flex;
     flex-direction: column;
+    font-family: Macondo;
     color: rgb(238, 245, 227);
-    /*color: black;*/
-    font-size: 13px;
-    margin: 5px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 3px;
   }
 
   .panel ul > li:hover {
-    color: rgb(58, 51, 51);
+    background-color: rgb(58, 51, 51);
+    color: rgb(238, 245, 227);
+    border-bottom: 2px solid rgb(238, 245, 227);
+    width: max-content;
+    margin-left: auto;
   }
 
   .open-button {
@@ -1490,14 +1518,13 @@ form {
     letter-spacing: 3px;
   }
 
-  .nav-bar {
+  .nav-bar-div {
     display: none;
   }
 
   .navigation {
-    display: block;
-    width: 50%;
-    margin-left: 55px;
+    justify-content: flex-end;
+    display: inline;
   }
 
   .panel {
@@ -1519,15 +1546,18 @@ form {
 
   .panel-list {
     text-align: right;
-    padding: 5px;
+    padding: 10px;
   }
 
   .panel ul > li {
     display: flex;
     flex-direction: column;
+    font-family: Macondo;
     color: rgb(238, 245, 227);
-    font-size: 15px;
-    margin: 5px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 3px;
   }
 
   .panel ul > li:hover {
@@ -1536,7 +1566,6 @@ form {
     border-bottom: 2px solid rgb(238, 245, 227);
     width: max-content;
     margin-left: auto;
-    padding: 9px;
   }
 
   .open-button {
@@ -1995,6 +2024,20 @@ form {
     border-radius: 1rem;
     color: rgb(58, 51, 51);
     box-shadow: 0 0 10px;
+    background: linear-gradient(
+      to top,
+      rgb(221, 238, 195) 50%,
+      rgb(58, 51, 51) 50%
+    );
+    background-size: 100% 200%;
+    background-position: top;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+  }
+
+  .second-area-container-cards:hover {
+    color: rgb(58, 51, 51);
+    background-position: bottom;
   }
 
   .second-area-container-cards-writeup {
