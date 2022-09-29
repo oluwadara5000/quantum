@@ -56,7 +56,7 @@
   letter-spacing: 4px;
 }
 
-ul > li {
+.nav-bar-div ul > li {
   display: inline-block;
   color: rgb(221, 238, 195);
   font-family: Macondo;
@@ -64,21 +64,22 @@ ul > li {
   padding-left: 1rem;
   letter-spacing: 2.5px;
   padding: 10px;
+  margin: 0 5px;
   border-radius: 7px;
   cursor: pointer;
+  background: linear-gradient(
+    to right,
+    rgb(221, 238, 195) 50%,
+    rgb(58, 51, 51) 50%
+  );
+  background-size: 210% 100%;
+  background-position: right;
+  transition: all 0.4s ease-out;
 }
 
 ul > li:hover {
-  padding: 12px;
-  background-color: rgb(221, 238, 195);
   color: rgb(58, 51, 51);
-  transition: 0.2s ease-out;
-}
-
-.nav-bar {
-  display: flex;
-  gap: 1rem;
-  font-size: 1rem;
+  background-position: left;
 }
 
 .panel {
@@ -155,12 +156,6 @@ ul > li:hover {
   border-radius: 5px;
   padding: 1rem;
   box-shadow: 0 0 10px;
-  opacity: 0.3;
-}
-
-.area-container-cards:hover {
-  opacity: 1;
-  transition: 0.2s ease-in-out;
 }
 
 .area-container-cards-writeup {
@@ -444,7 +439,7 @@ ul > li:hover {
   margin: auto;
 }
 
-.discovery-list > li {
+.discovery-list ul > li {
   list-style-type: disc;
   font-size: 1rem;
   color: rgb(58, 51, 51);
