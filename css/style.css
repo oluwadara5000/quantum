@@ -1806,7 +1806,8 @@ form {
 
   .discovery {
     width: inherit;
-    height: 60rem;
+    /* height: 60rem; */
+    height: fit-content;
     justify-content: space-between;
     margin-bottom: 1.5rem;
   }
@@ -1824,6 +1825,7 @@ form {
 
   .discovery-picture {
     height: 42%;
+    width: inherit;
   }
 
   .discovery-image {
@@ -1835,10 +1837,14 @@ form {
     font-size: 1rem;
   }
 
+  .discovery-content-writeup-heading {
+    font-size: 2rem;
+  }
+
   .discovery-content-writeup {
     font-size: 2rem;
     width: inherit;
-    padding: 0.5rem;
+    padding: 2.5rem;
     height: 55%;
   }
 
