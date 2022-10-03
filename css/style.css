@@ -56,7 +56,7 @@
 
 .main-heading:hover {
   letter-spacing: 7px;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease-out;
 }
 
 .nav-bar-div ul > li {
