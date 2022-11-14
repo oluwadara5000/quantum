@@ -1,22 +1,4 @@
-@font-face {
-  font-family: Orbitron;
-  src: url(/css/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
-}
-
-@font-face {
-  font-family: Macondo;
-  src: url(/css/fonts/Macondo/Macondo-Regular.ttf);
-}
-
-@font-face {
-  font-family: Katibeh;
-  src: url(/css/fonts/Katibeh/Katibeh-Regular.ttf);
-}
-
-@font-face {
-  font-family: Mukta;
-  src: url(/css/fonts/Mukta/MuktaMahee-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Macondo&family=Mukta&family=Orbitron:wght@600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -50,7 +32,7 @@
 .main-heading {
   color: rgb(221, 238, 195);
   font-size: 2rem;
-  font-family: Orbitron;
+  font-family: 'Orbitron', sans-serif;
   letter-spacing: 3px;
   cursor: pointer;
 }
@@ -63,7 +45,7 @@
 .nav-bar-div ul > li {
   display: inline-block;
   color: rgb(221, 238, 195);
-  font-family: Macondo;
+  font-family: 'Macondo', cursive;
   font-size: 1.3rem;
   padding-left: 1rem;
   letter-spacing: 2.5px;
@@ -125,12 +107,12 @@ ul > li > a:hover {
 
 .about-text-heading {
   font-size: 2.5rem;
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   letter-spacing: 3.5px;
 }
 .about-text,
 .about-text-one {
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   margin: 1rem 0;
   font-size: 1.5rem;
   letter-spacing: 2px;
@@ -187,7 +169,7 @@ ul > li > a:hover {
 
 .area-container-cards-writeup {
   margin: 20px 0;
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   font-size: 20px;
 }
 
@@ -216,7 +198,7 @@ ul > li > a:hover {
 }
 
 .little-about-text-heading {
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   font-size: 1.8rem;
   letter-spacing: 1rem;
   margin-bottom: 1.5rem;
@@ -225,13 +207,13 @@ ul > li > a:hover {
 }
 
 .text {
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   font-size: 1rem;
   margin: 0.3rem 0 1rem 0;
 }
 
 .text-heading {
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   letter-spacing: 0.5rem;
   border-bottom: 1px solid black;
 }
@@ -251,12 +233,12 @@ ul > li > a:hover {
 }
 
 .product-heading {
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   font-size: 1.5rem;
 }
 
 .product-sub-heading {
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   font-size: 2rem;
 }
 
@@ -283,7 +265,7 @@ ul > li > a:hover {
 .card-div-text {
   margin-top: 2rem;
   text-align: start;
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   color: rgb(58, 51, 51);
 }
 
@@ -297,7 +279,7 @@ ul > li > a:hover {
   margin: auto;
   height: 40%;
   width: 95%;
-  background-image: url(/images/card-div.jpg);
+  background-image: url(card-div.jpg);
 }
 
 .blog-body {
@@ -321,7 +303,7 @@ ul > li > a:hover {
 }
 
 .blog-content-writeup {
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   margin: 10px 0;
   font-size: 1.5rem;
 }
@@ -336,7 +318,7 @@ ul > li > a:hover {
 }
 
 .blog-heading-text {
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   letter-spacing: 5px;
   font-size: 3rem;
 }
@@ -364,7 +346,7 @@ ul > li > a:hover {
 }
 
 .executive-div-heading {
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   font-size: 2rem;
 }
 
@@ -412,12 +394,12 @@ ul > li > a:hover {
 }
 
 .name {
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   font-size: 2rem;
 }
 
 .post {
-  font-family: Macondo;
+  font-family: 'Macondo', cursive;
   font-size: 1.5rem;
 }
 
@@ -434,7 +416,7 @@ ul > li > a:hover {
 }
 
 .discovery-heading-div {
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   text-align: center;
   font-size: 2rem;
   letter-spacing: 3px;
@@ -472,7 +454,7 @@ ul > li > a:hover {
   color: rgb(58, 51, 51);
   margin-top: 1rem;
   padding: 0;
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   line-height: 1.6rem;
 }
 
@@ -483,7 +465,7 @@ ul > li > a:hover {
 }
 
 .discovery-content-writeup-heading-div {
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   text-align: center;
   font-size: 3rem;
   letter-spacing: 2px;
@@ -515,7 +497,7 @@ ul > li > a:hover {
 }
 
 .email-request {
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   font-size: 2rem;
 }
 
@@ -532,7 +514,7 @@ form {
 
 .subscribe {
   letter-spacing: 5px;
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
   font-size: 1.5rem;
   width: 30rem;
   border-radius: 12px;
@@ -540,7 +522,7 @@ form {
 }
 
 .subscribe-submit-button {
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   font-size: 1.5rem;
   width: 10rem;
   border-radius: 12px;
@@ -567,7 +549,7 @@ form {
 .contact-container-individual-writeup {
   font-size: 18px;
   margin-top: 20px;
-  font-family: Mukta;
+  font-family: 'Mukta', sans-serif;
 }
 
 .contact-container-divider {
@@ -585,7 +567,7 @@ form {
 }
 
 .main-footer-heading {
-  font-family: Katibeh;
+  font-family: 'Katibeh', cursive;
   font-size: 2rem;
   color: rgb(221, 238, 195);
 }
@@ -595,10 +577,15 @@ form {
   justify-content: space-around;
 }
 
-.fa {
+.fa-brands, .fa-solid {
   margin: 10px 20px;
   color: rgb(221, 238, 195);
 }
+
+/* .fa-xmark{
+  color: red;
+  background-color: red;
+} */
 
 /*
 /
@@ -663,7 +650,7 @@ form {
   .panel ul > li {
     display: flex;
     flex-direction: column;
-    font-family: Macondo;
+    font-family: 'Macondo', cursive;
     color: rgb(238, 245, 227);
     font-size: 16px;
     margin-bottom: 20px;
@@ -956,7 +943,7 @@ form {
     color: black;
     margin-top: 1rem;
     padding: 0;
-    font-family: Mukta;
+    font-family: 'Mukta', sans-serif;
     line-height: 1rem;
   }
 
@@ -1092,7 +1079,7 @@ form {
   .panel ul > li {
     display: flex;
     flex-direction: column;
-    font-family: Macondo;
+    font-family: 'Macondo', cursive;
     color: rgb(238, 245, 227);
     font-size: 16px;
     margin-bottom: 20px;
@@ -1392,7 +1379,7 @@ form {
     color: black;
     margin-top: 1rem;
     padding: 0;
-    font-family: Mukta;
+    font-family: 'Mukta', sans-serif;
     line-height: 1rem;
   }
 
@@ -1445,7 +1432,7 @@ form {
 
   .subscribe {
     letter-spacing: 5px;
-    font-family: Mukta;
+    font-family: 'Mukta', sans-serif;
     font-size: 1rem;
     width: 100%;
     border-radius: 12px;
@@ -1454,7 +1441,7 @@ form {
   }
 
   .subscribe-submit-button {
-    font-family: Katibeh;
+    font-family: 'Katibeh', cursive;
     font-size: 1.5rem;
     width: 10rem;
     height: 50%;
@@ -1543,6 +1530,8 @@ form {
     display: flex;
     flex-direction: column;
     width: 70%;
+    padding-top: 60px;
+    /* padding: 60px 30px; */
     margin-left: auto;
     transition: 0.5s;
   }
@@ -1550,8 +1539,10 @@ form {
   .collapse-button {
     display: block;
     background-color: rgb(238, 245, 227);
+    /* background-color: red; */
     border: 0;
     padding: 4px;
+    font-size: 40px;
   }
 
   .panel-list {
@@ -1562,12 +1553,14 @@ form {
   .panel ul > li {
     display: flex;
     flex-direction: column;
-    font-family: Macondo;
+    font-family: 'Macondo', cursive;
     color: rgb(238, 245, 227);
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     cursor: pointer;
     border-radius: 3px;
+    width: 60%;
+    margin-left: auto;
   }
 
   .panel ul > li:hover {
@@ -1864,7 +1857,7 @@ form {
     color: black;
     margin-top: 1rem;
     padding: 0;
-    font-family: Mukta;
+    font-family: 'Mukta', sans-serif;
     line-height: 1rem;
   }
 
@@ -1912,7 +1905,7 @@ form {
 
   .subscribe {
     letter-spacing: 5px;
-    font-family: Mukta;
+    font-family: 'Mukta', sans-serif;
     font-size: 1rem;
     width: 100%;
     border-radius: 12px;
@@ -1921,7 +1914,7 @@ form {
   }
 
   .subscribe-submit-button {
-    font-family: Katibeh;
+    font-family: 'Katibeh', cursive;
     font-size: 1.5rem;
     width: 10rem;
     margin: auto;
@@ -2058,7 +2051,7 @@ form {
 
   .second-area-container-cards-writeup {
     margin: 20px 0;
-    font-family: Mukta;
+    font-family: 'Mukta', sans-serif;
   }
 
   .little-about {
