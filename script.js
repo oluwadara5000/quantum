@@ -1,5 +1,5 @@
 function openPanel() {
-  document.getElementById("panel").style.height = "350px";
+  document.getElementById("panel").style.height = "300px";
   document.getElementById("collapseButton").style.backgroundColor =
     "rgb(58, 51, 51)";
   document.getElementById("collapsedDiv").style.display = "block";
